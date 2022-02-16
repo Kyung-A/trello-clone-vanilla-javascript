@@ -1,0 +1,334 @@
+/* Global */
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #237abf;
+}
+
+.main {
+    width: 100%;
+}
+
+.default-button{
+    padding:6px 13px;
+    font-weight: bold;
+    color:#fff;
+    border:0;
+    border-radius: 3px;
+    background-color: #5fa244;
+    cursor: pointer;
+}
+
+.cancel-button{
+    font-size: 20px;
+    color:rgb(141, 141, 141);
+    border:0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.ellipsis-button{
+    color:rgb(180, 180, 180);
+    margin-left: auto;
+    border:0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.horizontal-align {
+    display: flex;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+
+/* GNB style */
+.gnb {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    padding:0px 5px;
+    background-color: #24609c;
+    box-sizing: border-box;
+}
+
+.gnb .gnb-list > button {
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+    border:0;
+    border-radius: 3px;
+    background-color: #678fb9;
+    cursor: pointer;
+}
+
+.gnb .gnb-list > button i{
+    color:#fff;
+    font-size:17px;
+}
+
+.gnb .gnb-list > button.user-profile {
+    padding: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 0px;
+}
+
+.gnb .gnb-list > button.user-profile img{
+    width: 100%;
+}
+
+.gnb .logo {
+    font-size:20px;
+    font-style: italic;
+    color:#fff;
+}
+
+
+/* Main Header style */
+.main-header{
+    width: 100%;
+    height: 50px;
+}
+
+.main-header nav{
+    width: 100%;
+    padding:10px 5px;
+    box-sizing: border-box;
+}
+
+.main-header .main-header-list{
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+
+.main-header-list li {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color:#fff;
+    margin-left:20px;
+}
+
+.main-header-list .private {
+    margin-left: 5px;
+}
+
+.main-header-list .title{
+    font-size: 18px;
+    font-weight: bold;
+    color:#fff;
+}
+
+.main-header-list .user-list > *{
+    margin-right: 5px;
+}
+
+.main-header-list .user-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.main-header-list .user-img img {
+    width: 100%;
+}
+
+.main-header-list .add-user-button{
+    width: 30px;
+    height: 30px;
+    border:0;
+    border-radius: 50%;
+    background-color: #678fb9;
+    overflow: hidden;
+}
+
+.main-header-list .add-user-button i {
+    color:#fff;
+}
+
+.show-menu-button{
+    border:0;
+    background-color: transparent;
+}
+
+.show-menu-button i{
+    font-size:10px;
+    color:#fff;
+    margin-right:5px;
+}
+
+.show-menu-button span{
+    text-decoration: underline;
+    color:#fff;
+}
+
+/* board style */
+.board-wrapper{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.board-wrapper .board {
+    flex:1;
+    max-width: 300px;
+    padding:0px 5px;
+    box-sizing: border-box;
+}
+
+.add-list-button{
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    color:#c6d1db;
+    padding:10px;
+    border:0;
+    border-radius: 3px;
+    background-color: #2562a0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.add-list-form{
+    width: 100%;
+    padding:5px;
+    border-radius: 3px;
+    background-color: #e0e1e4;
+    box-sizing: border-box;
+}
+
+.add-list-form .add-list-input{
+    width: 100%;
+    padding:8px 10px;
+    margin-bottom:5px;
+    border:1px solid rgb(168, 168, 168);
+    border-radius: 3px;
+    background-color: #d5d6d9;
+    box-sizing: border-box;
+}
+
+.add-list-form button {
+    margin-right: 5px;
+}
+
+.board-list{
+    width: 100%;
+    border-radius: 3px;
+    background-color: #e0e1e4;
+    box-sizing: border-box;
+}
+
+.board-list > li {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.board {
+    width: 100%;
+}
+
+.board .board-title{
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 15px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.add-card-button{
+    width: 100%;
+    height: 35px;
+    text-align: left;
+    color:rgb(114, 114, 114);
+    padding:0px 10px;
+    border:0;
+    border-radius: 3px;
+    background-color: transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.add-card-button:hover {
+    text-decoration: underline;
+    background-color: rgb(187, 187, 187);
+}
+
+.add-card-form{
+    width: 100%;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+.card-description{
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    font-size:14px;
+    border:1px solid rgb(224, 224, 224);
+    box-sizing: border-box;
+}
+
+.add-card-form .cancel-button{
+    margin-left: 5px;
+}
+
+.card-list {
+    width: 100%;
+    padding:5px 5px;
+    box-sizing: border-box;
+}
+
+.card-list li {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.card-list li .card {
+    width: 100%;
+    padding: 7px 10px;
+    border:1px solid rgb(240, 240, 240);
+    border-radius: 3px;
+    background-color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.card-list li:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.card-list li:hover .edit-button{
+    opacity: 1;
+}
+
+.card-list .card-title{
+    font-size:15px;
+}
+
+.edit-button{
+    color:rgb(158, 158, 158);
+    font-size: 12px;
+    margin-left: auto;
+    padding:0;
+    border:0;
+    background-color: transparent;
+    cursor: pointer;
+    opacity: 0;
+}
